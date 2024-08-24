@@ -1,0 +1,3362 @@
+
+
+@media screen and (max-width: 1300px) {
+  .head{
+   
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+    
+  }
+  
+  
+  .header-menu {
+      display: flex;
+      justify-content: space-between; /* Items spaced evenly */
+      align-items: center; /* Center items vertically */
+    }
+  
+  .upar > li > button:hover{
+    color: white;
+    
+  }
+    
+     .upar {
+      display: flex;
+      list-style-type: none;
+     
+      width: 100%; /* Ensures the list takes full width */
+    } 
+  
+    .upar > li {
+      
+      flex: 1; /* Each item takes an equal portion of available space */
+      margin: 0 5px; /* Adjust horizontal spacing between items */
+      text-align: center; /* Center text */
+    }
+    
+    .upar > li > button{
+      cursor: pointer;
+      background-color: royalblue;
+      border: none;
+    }
+  
+    .head > h1{
+      background-color: indigo;
+    }
+  
+    .Desc{
+      align-items: center;
+      text-align : center;
+      display:flex;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 100;
+      color: white;
+      margin: left 25%;
+      margin: right 25%;
+       justify-content: center; /* Items spaced evenly */
+      
+      
+  
+  
+    }
+  
+    /* #root{
+      background-color:indigo;
+    } */
+  
+     .movie{
+      max-width: 100%;
+      max-height: 100%;
+      cursor:pointer;
+      margin: 20px;
+       
+      
+      
+      
+      
+      
+    } 
+  
+    .movie:hover {
+      background-color: yellow;
+    }
+    .movie > img{
+    
+      border: 1px solid #ccc; /* Optional: Add a border for visualization */
+      margin: 10px; /*  Optional: Add padding around the content */
+      /* Other styles for .movie container */
+    
+      /* Set the maximum width and height for the image */
+      width: 227px; /* Ensure the image doesn't exceed the container width */
+      max-height: 100%; /* Set a maximum height for the image */
+    
+      /* Ensure the image fits inside its container */
+       /* Maintain aspect ratio and cover the container */
+  
+    }
+  
+    .movie > h3 {
+      text-align: center;
+    }
+  
+  
+    .movie-list{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  .Nets{
+    width: 100%;
+  background-color: black;
+      position: fixed;
+      z-index:3;
+      display: flex;
+       padding-left: 8px;
+      padding-bottom: 2px;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));   
+
+  }
+    .Net{  
+      width: 100%;
+  
+      position: fixed;
+      z-index:3;
+      display: flex;
+       padding-left: 8px;
+      padding-bottom: 2px;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));   
+      
+      
+  
+      
+      
+  
+    }
+  
+     .Net>img{
+      width:200px;
+    } 
+
+    .Nets>img{
+      width:200px;
+    } 
+
+  
+    .email{
+      padding:10px;
+      margin:10px;
+      background-color: slategray ;
+      color: white;
+      
+  
+      
+      
+      
+      
+  
+    }
+  
+    .pw{
+      
+      padding:10px;
+      margin:10px;
+      background-color:slategrey;
+      text-decoration: white;
+      color:white;
+  
+  
+      
+    }
+    .sign{
+      padding:10px;
+      margin:10px;
+      margin-top:10px;
+      width:92%;
+      
+      background-color: red;
+      border-radius: 10px;
+      border-color: white;
+      color:white;
+      border: white;
+      
+    
+      
+      
+    }
+  
+    .sign:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      border: white;
+      border-radius: 10px;
+    }
+  
+  .signin{
+     
+     background-color: black;
+     padding:20px;
+     border-radius: 2%;
+     opacity: 0.8;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     
+    
+  }
+  
+  .sign-text{
+    color:white;
+    margin:10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+  }
+  
+  input::placeholder {
+    color: wheat; /* Placeholder text color */
+    
+  }
+  
+  .newsign{
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  
+  .newsign:hover{
+    cursor:pointer;
+  }
+  
+  .newsignlink{
+  
+    text-decoration: underline;
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  
+  }
+  
+  .newsignlink:hover{
+    cursor:pointer;
+  }
+  
+  
+  .errmess{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin:12px;
+  
+    
+  }
+  
+  .upperlist{
+    display: flex;
+    z-index: 3;
+    position:fixed;
+    margin-top: 45px;
+  }
+  
+  .upper{
+    display: flex;
+    justify-content:end;
+    
+  
+  }
+  
+  .Signout{
+    
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 60px;
+    margin-right: 10px;
+    border-width: 1px;
+    color:white;
+    height: 32px;
+    border-color: transparent;
+  }
+  
+  .gpt_but {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding-left: 5px;
+    height:32px;
+    color: white;
+    margin-right: 60px;
+    border-width: 1px;
+    border-color: transparent;
+    font-weight: normal;
+    width: 90px; /* Specify width */
+    text-align: center; /* Center the text horizontally */
+  
+  }
+  
+  .gpt_but:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .Signout:hover{
+    cursor: pointer;
+    border-width: 1px;
+    
+    border-color: white;
+  }
+  
+  
+  .upperlist > img{
+    
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:blue;
+    
+  }
+  
+  .play-button{
+    padding:15px;
+    margin-left: 25px;
+    background-color: white;
+    width: 100px;
+    border-width: 0px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  .info{
+    
+    padding:15px;
+    margin-left: 25px;
+    width: 100px;
+    border-width: 0px;
+    border-radius:5px;
+  
+  }
+  
+  .play-button:hover{
+    cursor:pointer;
+    color:white;
+    background-color: lightgray;
+  }
+  
+  .Title_video{
+      margin-top: 15%;
+      font-size: x-large;
+      font-weight: bold;
+      padding-left: 25px;
+
+  
+  }
+  
+  .description{
+    width:38%;
+    padding-left: 25px;
+  
+  }
+  
+  .bgtrailer{
+    width: 100%;
+    aspect-ratio: 2/1;
+    z-index:0;
+    position: relative;
+    
+  }
+  
+  .title{
+    z-index: 2;
+    color:white;
+    position: absolute;
+    margin-top: auto;
+    width: 100%;
+    height:100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));   
+
+  
+    
+  }
+  
+  .single_movie{
+    aspect-ratio: 1/1.5;
+    width:200px;
+    margin: 5px;
+  
+    border-radius: 5px;
+  
+    
+  }
+  
+  .list{
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Add smooth scrolling (optional) */
+    white-space: nowrap;
+  
+  
+  
+    
+  
+  }
+  
+  .Sc{
+    background-color: black;
+  
+  
+  }
+  
+  .movies{
+    width: 100%; /* Or any width you desire */
+    overflow-x: hidden;
+    color:white;
+    
+  }
+  
+  .list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on WebKit (Chrome, Safari, etc.) */
+  }
+  
+  .browsing{
+    margin-top: -325px;
+    z-index: 2;
+    position: relative;
+  
+  }
+  
+  .nl{
+    font-weight: normal;
+    font-size:medium;
+    padding-left:10px;
+    max-width: 100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    
+  }
+  
+  .np{
+    font-weight: normal;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:200px;
+    color: gray;
+  
+  }
+  
+  
+  .ok{
+    background-color: purple;
+    z-index: 50;
+  }
+  
+  /* .gpt_submission>form{
+  margin-bottom:1000px;
+  } */
+
+  
+  
+
+
+
+
+  .gptform{
+    z-index: 3;
+    position: fixed;
+    margin-left: 33%;
+    margin-bottom: 200px;
+    padding-top: 25px;
+  }
+  
+  .searchbar{
+    height:32px;
+    margin-top:19px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border-width: 0;
+    width:240px;
+  }
+
+  .submit_but{
+    background-color: red;
+    color: white;
+    width: 64px;
+
+    border-radius: 5px;
+    border-width: 0px;
+    height:32px;
+  }
+  
+  .submit_but:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-width: 1px;
+   width: 64px;
+   font-weight: bold;
+    height:32px;
+    border-color: white;
+    cursor: pointer;
+  }
+
+  .gptmovies{
+    background-color: white;
+    opacity:0.8 ;
+    z-index: 2;
+  }
+
+  /* .gpt_submission{
+    background-color: aquamarine;
+
+  } */
+  
+  
+  /* .gptsmovies{
+    margin-top: 20px;
+  } */
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .head{
+   
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+    
+  }
+  
+  
+  .header-menu {
+      display: flex;
+      justify-content: space-between; /* Items spaced evenly */
+      align-items: center; /* Center items vertically */
+    }
+  
+  .upar > li > button:hover{
+    color: white;
+    
+  }
+    
+     .upar {
+      display: flex;
+      list-style-type: none;
+     
+      width: 100%; /* Ensures the list takes full width */
+    } 
+  
+    .upar > li {
+      
+      flex: 1; /* Each item takes an equal portion of available space */
+      margin: 0 5px; /* Adjust horizontal spacing between items */
+      text-align: center; /* Center text */
+    }
+    
+    .upar > li > button{
+      cursor: pointer;
+      background-color: royalblue;
+      border: none;
+    }
+  
+    .head > h1{
+      background-color: indigo;
+    }
+  
+    .Desc{
+      align-items: center;
+      text-align : center;
+      display:flex;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 100;
+      color: white;
+      margin: left 25%;
+      margin: right 25%;
+       justify-content: center; /* Items spaced evenly */
+      
+      
+  
+  
+    }
+  
+    /* #root{
+      background-color:indigo;
+    } */
+  
+     .movie{
+      max-width: 100%;
+      max-height: 100%;
+      cursor:pointer;
+      margin: 20px;
+       
+      
+      
+      
+      
+      
+    } 
+  
+    .movie:hover {
+      background-color: yellow;
+    }
+    .movie > img{
+    
+      border: 1px solid #ccc; /* Optional: Add a border for visualization */
+      margin: 10px; /*  Optional: Add padding around the content */
+      /* Other styles for .movie container */
+    
+      /* Set the maximum width and height for the image */
+      width: 227px; /* Ensure the image doesn't exceed the container width */
+      max-height: 100%; /* Set a maximum height for the image */
+    
+      /* Ensure the image fits inside its container */
+       /* Maintain aspect ratio and cover the container */
+  
+    }
+  
+    .movie > h3 {
+      text-align: center;
+    }
+  
+  
+    .movie-list{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .Net{  
+      width: 100%;
+      position: fixed;
+      justify-content: left;
+      z-index:3;
+      display: flex;
+       padding-left: 8px;
+      padding-bottom: 2px;
+  
+  
+  
+      
+      
+  
+    }
+
+    .Nets{  
+      width: 100%;
+      position: fixed;
+      justify-content: left;
+      z-index:3;
+      display: flex;
+       padding-left: 8px;
+      padding-bottom: 2px;
+  
+  
+  
+      
+      
+  
+    }
+  
+     .Net>img{
+      width:150px;
+      padding-left: auto;
+     
+    } 
+  
+
+    .Nets>img{
+      width:150px;
+      padding-left: auto;
+     
+    } 
+    .email{
+      padding:10px;
+      margin:10px;
+      background-color: slategray ;
+      color: white;
+      
+  
+      
+      
+      
+      
+  
+    }
+  
+    .pw{
+      
+      padding:10px;
+      margin:10px;
+      background-color:slategrey;
+      text-decoration: white;
+      color:white;
+  
+  
+      
+    }
+    .sign{
+      padding:10px;
+      margin:10px;
+      margin-top:10px;
+      width:92%;
+      
+      background-color: red;
+      border-radius: 10px;
+      border-color: white;
+      color:white;
+      border: white;
+      
+    
+      
+      
+    }
+  
+    .sign:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      border: white;
+      border-radius: 10px;
+    }
+  
+  .signin{
+     
+     background-color: black;
+     padding:20px;
+     border-radius: 2%;
+     opacity: 0.8;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     
+    
+  }
+  
+  .sign-text{
+    color:white;
+    margin:10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+  }
+  
+  input::placeholder {
+    color: wheat; /* Placeholder text color */
+    
+  }
+  
+  .newsign{
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  
+  .newsign:hover{
+    cursor:pointer;
+  }
+  
+  .newsignlink{
+  
+    text-decoration: underline;
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  
+  }
+  
+  .newsignlink:hover{
+    cursor:pointer;
+  }
+  
+  
+  .errmess{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin:12px;
+  
+    
+  }
+  
+  .upperlist{
+    display: flex;
+    z-index: 3;
+    position:fixed;
+    margin-top: 32px;
+  }
+  
+  .upper{
+    display: flex;
+    justify-content:end;
+    
+  
+  }
+  
+  .Signout{
+    
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 45px;
+    margin-right: 10px;
+    border-width: 1px;
+    color:white;
+    border-color: transparent;
+    width:auto;
+    padding: 1px;
+    font-size: x-small;
+
+  }
+
+  .acc_img{
+    height:28px;
+    
+  }
+
+  .signout_sect > button{
+    
+    height:25px;
+
+    
+  } 
+  
+  .gpt_but {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: white;
+
+
+    
+    font-size: xx-small;
+    margin-right: 47px;
+    border-width: 1px;
+    border-color: transparent;
+    font-weight: normal;
+    height:26px;
+    width: 70px; /* Specify width */
+    text-align: center; /* Center the text horizontally */
+  
+  }
+  
+  .gpt_but:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .Signout:hover{
+    cursor: pointer;
+    border-width: 1px;
+    
+    border-color: white;
+  }
+  
+  
+  .upperlist > img{
+    
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:blue;
+    
+  }
+  
+  .play-button{
+    padding:15px;
+    margin-left: 25px;
+    background-color: white;
+    width: auto;
+    height:auto;
+    border-width: 0px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  .info{
+    
+    padding:15px;
+    margin-left: 25px;
+    width: 100px;
+    border-width: 0px;
+    border-radius:5px;
+  
+  }
+  
+  .play-button:hover{
+    cursor:pointer;
+    color:white;
+    background-color: lightgray;
+
+  }
+  
+  .Title_video{
+         
+      margin-top: 90px;
+      padding-bottom: 10px;
+      font-size:larger;
+      font-weight: bold;
+      padding-left: 25px;
+          
+  }
+  
+  .description{
+    width:38%;
+    padding-left: 25px;
+    font-size: medium;
+    margin-top:-20px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .bgtrailer{
+    width: 99%;
+    aspect-ratio: 2/1;
+    z-index:0;
+    margin-top: 84px;
+    position: relative;
+    
+  }
+  
+  .title{
+    z-index: 2;
+    color:white;
+    position: absolute;
+    padding-top: 50px;
+    width: 100%;
+    height:534px;
+  
+    
+  }
+  
+  .single_movie{
+    aspect-ratio: 1/1.5;
+    width:200px;
+    margin: 5px;
+  
+    border-radius: 5px;
+  
+    
+  }
+  
+  .list{
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Add smooth scrolling (optional) */
+    white-space: nowrap;
+  
+  
+  
+    
+  
+  }
+  
+  .Sc{
+    background-color: black;
+  
+  
+  }
+  
+  .movies{
+    width: 100%; /* Or any width you desire */
+    overflow-x: hidden;
+    color:white;
+  }
+  
+  .list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on WebKit (Chrome, Safari, etc.) */
+  }
+  
+  .browsing {
+    margin-top: -300px; /* Adjust margin if needed */
+  }
+  
+  .nl{
+    font-weight: normal;
+    font-size:medium;
+    padding-left:10px;
+    max-width: 100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    
+  }
+  
+  .np{
+    font-weight: normal;
+    padding-left:10px;
+    padding-right:10px;
+  
+  }
+  
+  
+  .ok{
+    background-color: purple;
+    z-index: 50;
+  }
+  
+  .gptpage{
+    height:100px;
+    background-color: black;
+    
+  }
+  
+  .gptform{
+    z-index: 3;
+    position: fixed;
+    margin-left: 26%;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
+
+  .gptmovies{
+    background-color: white;
+    
+    opacity:0.8 ;
+    z-index: 2;
+  }
+  
+  .searchbar{
+    height:23px;
+    margin-top:19px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border-width: 0;
+  }
+
+  .submit_but{
+    background-color: red;
+    color: white;
+    width: 64px;
+
+    border-radius: 5px;
+    border-width: 0px;
+    height:32px;
+  }
+  
+  .submit_but:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-width: 1px;
+   width: 64px;
+   font-weight: bold;
+    height:32px;
+    border-color: white;
+    cursor: pointer;
+  }
+  .gptpage{
+    
+  }
+
+  
+
+
+  .trailtitle {
+    position: relative;
+    top: auto;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 540px) {
+  .head{
+   
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+    
+  }
+  
+  
+  .header-menu {
+      display: flex;
+      justify-content: space-between; /* Items spaced evenly */
+      align-items: center; /* Center items vertically */
+    }
+  
+  .upar > li > button:hover{
+    color: white;
+    
+  }
+    
+     .upar {
+      display: flex;
+      list-style-type: none;
+     
+      width: 100%; /* Ensures the list takes full width */
+    } 
+  
+    .upar > li {
+      
+      flex: 1; /* Each item takes an equal portion of available space */
+      margin: 0 5px; /* Adjust horizontal spacing between items */
+      text-align: center; /* Center text */
+    }
+    
+    .upar > li > button{
+      cursor: pointer;
+      background-color: royalblue;
+      border: none;
+    }
+  
+    .head > h1{
+      background-color: indigo;
+    }
+  
+    .Desc{
+      align-items: center;
+      text-align : center;
+      display:flex;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 100;
+      color: white;
+      margin: left 25%;
+      margin: right 25%;
+       justify-content: center; /* Items spaced evenly */
+      
+      
+  
+  
+    }
+  
+    /* #root{
+      background-color:indigo;
+    } */
+  
+     .movie{
+      max-width: 100%;
+      max-height: 100%;
+      cursor:pointer;
+      margin: 20px;
+       
+      
+      
+      
+      
+      
+    } 
+  
+    .movie:hover {
+      background-color: yellow;
+    }
+    .movie > img{
+    
+      border: 1px solid #ccc; /* Optional: Add a border for visualization */
+      margin: 10px; /*  Optional: Add padding around the content */
+      /* Other styles for .movie container */
+    
+      /* Set the maximum width and height for the image */
+      width: 227px; /* Ensure the image doesn't exceed the container width */
+      max-height: 100%; /* Set a maximum height for the image */
+    
+      /* Ensure the image fits inside its container */
+       /* Maintain aspect ratio and cover the container */
+  
+    }
+  
+    .movie > h3 {
+      text-align: center;
+    }
+  
+  
+    .movie-list{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .Net{  
+      width: 100%;
+      position: fixed;
+      justify-content: center;
+      z-index:3;
+      display: flex;
+      
+       padding-left: 8px;
+      padding-bottom: 2px;
+  
+  
+  
+      
+      
+  
+    }
+
+    .Nets{
+      width: 100%;
+    background-color: black;
+        position: fixed;
+        z-index:3;
+        display: flex;
+         padding-left: 8px;
+        padding-bottom: 2px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));   
+  
+    }
+  
+     .Net>img{
+      width:150px;
+      padding-left: auto;
+     
+    } 
+
+    .Nets>img{
+      width:150px;
+      padding-left: auto;
+     
+    } 
+  
+    .email{
+      padding:10px;
+      margin:10px;
+      background-color: slategray ;
+      color: white;
+      
+  
+      
+      
+      
+      
+  
+    }
+  
+    .pw{
+      
+      padding:10px;
+      margin:10px;
+      background-color:slategrey;
+      text-decoration: white;
+      color:white;
+  
+  
+      
+    }
+    .sign{
+      padding:10px;
+      margin:10px;
+      margin-top:10px;
+      width:92%;
+      
+      background-color: red;
+      border-radius: 10px;
+      border-color: white;
+      color:white;
+      border: white;
+      
+    
+      
+      
+    }
+  
+    .sign:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      border: white;
+      border-radius: 10px;
+    }
+  
+  .signin{
+     
+     background-color: black;
+     padding:20px;
+     border-radius: 2%;
+     opacity: 0.8;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     
+    
+  }
+  
+  .sign-text{
+    color:white;
+    margin:10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+  }
+  
+  input::placeholder {
+    color: wheat; /* Placeholder text color */
+    
+  }
+  
+  .newsign{
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  
+  .newsign:hover{
+    cursor:pointer;
+  }
+  
+  .newsignlink{
+  
+    text-decoration: underline;
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  
+  }
+  
+  .newsignlink:hover{
+    cursor:pointer;
+  }
+  
+  
+  .errmess{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin:12px;
+  
+    
+  }
+  
+  .upperlist{
+    display: flex;
+    z-index: 3;
+    position:fixed;
+    margin-top: 32px;
+  }
+  
+  .upper{
+    display: flex;
+    justify-content:end;
+    
+  
+  }
+  
+  .Signout{
+    
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 40px;
+    margin-right: 10px;
+    border-width: 1px;
+    color:white;
+    border-color: transparent;
+    width:auto;
+    padding: 1px;
+    font-size: x-small;
+
+  }
+
+  .acc_img{
+    height:28px;
+  }
+
+  .signout_sect > button{
+    
+    height:25px;
+
+    
+  } 
+  
+  .gpt_but {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: white;
+    
+    font-size: xx-small;
+    margin-right: 60px;
+    border-width: 1px;
+    border-color: transparent;
+    font-weight: normal;
+    height:26px;
+    width: 70px; /* Specify width */
+    text-align: center; /* Center the text horizontally */
+  
+  }
+  
+  .gpt_but:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .Signout:hover{
+    cursor: pointer;
+    border-width: 1px;
+    
+    border-color: white;
+  }
+  
+  
+  .upperlist > img{
+    
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:blue;
+    
+  }
+  
+  .play-button{
+    padding:15px;
+    margin-left: 25px;
+    background-color: white;
+    width: auto;
+    height:auto;
+    border-width: 0px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  .info{
+    
+    padding:15px;
+    margin-left: 25px;
+    width: 100px;
+    border-width: 0px;
+    border-radius:5px;
+  
+  }
+  
+  .play-button:hover{
+    cursor:pointer;
+    color:white;
+    background-color: lightgray;
+
+  }
+  
+  .Title_video{
+         
+      margin-top: 90px;
+      padding-bottom: 10px;
+      font-size:small;
+      font-weight: bold;
+      padding-left: 25px;
+          
+  }
+  
+  .description{
+    width:38%;
+    padding-left: 25px;
+    font-size: xx-small;
+    margin-top:-20px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .bgtrailer{
+    width: 99%;
+    aspect-ratio: 2/1;
+    z-index:0;
+    margin-top: 84px;
+    position: relative;
+    
+  }
+  
+  .title{
+    z-index: 2;
+    color:white;
+    position: absolute;
+    padding-top: 50px;
+    width: 100%;
+    height:534px;
+  
+    
+  }
+  
+  .single_movie{
+    aspect-ratio: 1/1.5;
+    width:200px;
+    margin: 5px;
+  
+    border-radius: 5px;
+  
+    
+  }
+  
+  .list{
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Add smooth scrolling (optional) */
+    white-space: nowrap;
+  
+  
+  
+    
+  
+  }
+  
+  .Sc{
+    background-color: black;
+  
+  
+  }
+  
+  .movies{
+    width: 100%; /* Or any width you desire */
+    overflow-x: hidden;
+    color:white;
+  }
+  
+  .list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on WebKit (Chrome, Safari, etc.) */
+  }
+  
+  .browsing {
+    margin-top: auto; /* Adjust margin if needed */
+  }
+  
+  .nl{
+    font-weight: normal;
+    font-size:medium;
+    padding-left:10px;
+    max-width: 100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    
+  }
+  
+  .np{
+    font-weight: normal;
+    padding-left:10px;
+    padding-right:10px;
+  
+  }
+  
+  
+  .ok{
+    background-color: purple;
+    z-index: 50;
+  }
+  
+  .gptpage{
+    height:100px;
+    position: absolute;
+    background-color: black;
+  }
+  
+  .gptform{
+    z-index: 3;
+    position: absolute;
+    margin-left: 40%;
+    padding-top: 35px;
+  }
+  
+  .searchbar{
+    height:23px;
+    margin-top:19px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border-width: 0;
+  }
+
+  .c{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    height:25px;
+  }
+  
+  .gptmovies{
+    background-color: white;
+    
+    opacity:0.8 ;
+    z-index: 2;
+  }
+
+
+  .trailtitle {
+    position: relative;
+    top: auto;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .head{
+   
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+    
+  }
+  
+  
+  .header-menu {
+      display: flex;
+      justify-content: space-between; /* Items spaced evenly */
+      align-items: center; /* Center items vertically */
+    }
+  
+  .upar > li > button:hover{
+    color: white;
+    
+  }
+    
+     .upar {
+      display: flex;
+      list-style-type: none;
+     
+      width: 100%; /* Ensures the list takes full width */
+    } 
+  
+    .upar > li {
+      
+      flex: 1; /* Each item takes an equal portion of available space */
+      margin: 0 5px; /* Adjust horizontal spacing between items */
+      text-align: center; /* Center text */
+    }
+    
+    .upar > li > button{
+      cursor: pointer;
+      background-color: royalblue;
+      border: none;
+    }
+  
+    .head > h1{
+      background-color: indigo;
+    }
+  
+    .Desc{
+      align-items: center;
+      text-align : center;
+      display:flex;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 100;
+      color: white;
+      margin: left 25%;
+      margin: right 25%;
+       justify-content: center; /* Items spaced evenly */
+      
+      
+  
+  
+    }
+  
+    /* #root{
+      background-color:indigo;
+    } */
+  
+     .movie{
+      max-width: 100%;
+      max-height: 100%;
+      cursor:pointer;
+      margin: 20px;
+       
+      
+      
+      
+      
+      
+    } 
+  
+    .movie:hover {
+      background-color: yellow;
+    }
+    .movie > img{
+    
+      border: 1px solid #ccc; /* Optional: Add a border for visualization */
+      margin: 10px; /*  Optional: Add padding around the content */
+      /* Other styles for .movie container */
+    
+      /* Set the maximum width and height for the image */
+      width: 227px; /* Ensure the image doesn't exceed the container width */
+      max-height: 100%; /* Set a maximum height for the image */
+    
+      /* Ensure the image fits inside its container */
+       /* Maintain aspect ratio and cover the container */
+  
+    }
+  
+    .movie > h3 {
+      text-align: center;
+    }
+  
+  
+    .movie-list{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .Net{  
+      width: 100%;
+      position: fixed;
+      justify-content: center;
+      z-index:3;
+      
+       padding-left: 8px;
+       height:85px;
+       
+      }
+
+
+      .Nets{
+        width: 100%;
+        position: fixed;
+        justify-content: center;
+        z-index:3;
+        background-color: black;
+         padding-left: 8px;
+         height:85px; 
+    
+      }
+  
+     .Net>img{
+      width:120px;
+      margin-top: 8px; 
+      position:absolute;      
+      
+    } 
+
+    .Nets>img{
+      width:120px;
+      margin-top: 8px; 
+      position:absolute;      
+      
+    } 
+  
+    .email{
+      padding:10px;
+      margin:10px;
+      background-color: slategray ;
+      color: white;
+      
+  
+      
+      
+      
+      
+  
+    }
+  
+    .pw{
+      
+      padding:10px;
+      margin:10px;
+      background-color:slategrey;
+      text-decoration: white;
+      color:white;
+  
+  
+      
+    }
+    .sign{
+      padding:10px;
+      margin:10px;
+      margin-top:10px;
+      width:92%;
+      
+      background-color: red;
+      border-radius: 10px;
+      border-color: white;
+      color:white;
+      border: white;
+      
+    
+      
+      
+    }
+  
+    .sign:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      border: white;
+      border-radius: 10px;
+    }
+  
+  .signin{
+     
+     background-color: black;
+     padding:20px;
+     border-radius: 2%;
+     opacity: 0.8;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     
+    
+  }
+  
+  .sign-text{
+    color:white;
+    margin:10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+  }
+  
+  input::placeholder {
+    color: wheat; /* Placeholder text color */
+    
+  }
+  
+  .newsign{
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  
+  .newsign:hover{
+    cursor:pointer;
+  }
+  
+  .newsignlink{
+  
+    text-decoration: underline;
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  
+  }
+  
+  .newsignlink:hover{
+    cursor:pointer;
+  }
+  
+  
+  .errmess{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin:12px;
+  
+    
+  }
+  
+  .upperlist{
+    display: flex;
+    
+    justify-content: center;
+    z-index: 3;
+    position:fixed;
+    margin-top: 27px;
+  }
+  
+  .upper{
+    display: flex;
+    justify-content:end;
+    
+  
+  }
+  .upper>button{
+    display: flex;
+    justify-content:end;
+    padding: 0px;
+    
+  
+  }
+  
+  .Signout{
+    
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 20px;
+    border-width: 1px;
+    color:white;
+    border-color: transparent;
+    width:auto;
+    
+    font-size: x-small;
+
+  }
+   .signout_sect > button{
+    
+    height:20px;
+
+    
+  } 
+
+  
+
+  
+  
+
+  .gpt_button_sect > button{
+    
+    height:23px;
+    
+
+    
+
+  } 
+
+
+  .gpt_button_sect{
+    margin-right: 130px;
+  }
+
+  .acc_img{
+    height:30px;
+  }
+
+  
+  .gpt_but {
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: white;
+    font-size: 8px;
+    margin-right: 60px;
+    border-width: 1px;
+    border-color: transparent;
+    font-weight: normal;
+    width: 58px; /* Specify width */
+    text-align: center; /* Center the text horizontally */
+  
+  }
+
+  .gpt_button_sect{
+
+    margin-right: 160px;
+
+
+    
+  }
+  
+  .gpt_but:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .Signout:hover{
+    cursor: pointer;
+    border-width: 1px;
+    
+    border-color: white;
+  }
+  
+  
+  .upperlist > img{
+    
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:blue;
+    
+  }
+  
+  .play-button{
+    padding:10px;
+    margin-left: 25px;
+    background-color: white;
+    width: auto;
+    height:auto;
+    border-width: 0px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: x-small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  .info{
+    
+    padding:15px;
+    margin-left: 25px;
+    width: 100px;
+    border-width: 0px;
+    border-radius:5px;
+  
+  }
+  
+  .play-button:hover{
+    cursor:pointer;
+    color:white;
+    background-color: lightgray;
+
+  }
+  
+  .Title_video{
+         
+      margin-top: 70px;
+      padding-bottom: 10px;
+      font-size:small;
+      font-weight: bold;
+      padding-left: 25px;
+          
+  }
+  
+  .description{
+    width:38%;
+    padding-left: 25px;
+    font-size: xx-small;
+    margin-top:-20px;
+    margin-bottom: 5px;
+  
+  }
+  
+  
+
+
+
+
+  .bgtrailer{
+    width: 99%;
+    aspect-ratio: 2/1;
+    z-index:0;
+    margin-top: 84px;
+    position: relative;
+    
+  }
+  
+  .title{
+    z-index: 2;
+    color:white;
+    position: absolute;
+    padding-top: 50px;
+    width: 100%;
+    height:534px;
+  
+    
+  }
+  
+  .single_movie{
+    aspect-ratio: 1/1.5;
+    width:200px;
+    margin: 5px;
+  
+    border-radius: 5px;
+  
+    
+  }
+  
+  .list{
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Add smooth scrolling (optional) */
+    white-space: nowrap;
+  
+  
+  
+    
+  
+  }
+  
+  .Sc{
+    background-color: black;
+  
+  
+  }
+  
+  .movies{
+    width: 100%; /* Or any width you desire */
+    overflow-x: hidden;
+    color:white;
+  }
+  
+  .list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on WebKit (Chrome, Safari, etc.) */
+  }
+  
+  .browsing {
+    margin-top: -200px; /* Adjust margin if needed */
+  }
+  
+  .nl{
+    font-weight: normal;
+    font-size:medium;
+    padding-left:10px;
+    max-width: 100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    
+  }
+  
+  .np{
+    font-weight: normal;
+    padding-left:10px;
+    padding-right:10px;
+  
+  }
+  
+  
+  .ok{
+    background-color: purple;
+    z-index: 50;
+  }
+  
+  .gptpage{
+    height:100px;
+  
+    background-color: black;
+  }
+  
+  .gptform{
+    z-index: 0;
+    padding-top: 90px;
+    background-color: black;
+    width: 425px;
+    margin-left:0px;
+    
+    position: absolute;
+    padding-bottom: 10px;
+
+  }
+
+  .gptform > input{
+    z-index: 4;
+
+    margin-left: 19%;
+
+  }
+  
+  .searchbar{
+    height:23px;
+    margin-top:19px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border-width: 0;
+  }
+
+  .submit_but{
+    background-color: red;
+    color: white;
+    width: 64px;
+
+    border-radius: 5px;
+    border-width: 0px;
+    height:32px;
+  }
+  
+  .submit_but:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-width: 1px;
+   width: 64px;
+   font-weight: bold;
+    height:32px;
+    border-color: white;
+    cursor: pointer;
+  }
+  
+  .gptmovies{
+    background-color: white;
+    margin-top:0px;
+    
+    opacity:0.8 ;
+    z-index: 2;
+  }
+
+
+  .trailtitle {
+    position: relative;
+    top: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 376px) {
+  .head{
+   
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+    
+  }
+  
+  
+  .header-menu {
+      display: flex;
+      justify-content: space-between; /* Items spaced evenly */
+      align-items: center; /* Center items vertically */
+    }
+  
+  .upar > li > button:hover{
+    color: white;
+    
+  }
+    
+     .upar {
+      display: flex;
+      list-style-type: none;
+     
+      width: 100%; /* Ensures the list takes full width */
+    } 
+  
+    .upar > li {
+      
+      flex: 1; /* Each item takes an equal portion of available space */
+      margin: 0 5px; /* Adjust horizontal spacing between items */
+      text-align: center; /* Center text */
+    }
+    
+    .upar > li > button{
+      cursor: pointer;
+      background-color: royalblue;
+      border: none;
+    }
+  
+    .head > h1{
+      background-color: indigo;
+    }
+  
+    .Desc{
+      align-items: center;
+      text-align : center;
+      display:flex;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 100;
+      color: white;
+      margin: left 25%;
+      margin: right 25%;
+       justify-content: center; /* Items spaced evenly */
+      
+      
+  
+  
+    }
+  
+    /* #root{
+      background-color:indigo;
+    } */
+  
+     .movie{
+      max-width: 100%;
+      max-height: 100%;
+      cursor:pointer;
+      margin: 20px;
+       
+      
+      
+      
+      
+      
+    } 
+  
+    .movie:hover {
+      background-color: yellow;
+    }
+    .movie > img{
+    
+      border: 1px solid #ccc; /* Optional: Add a border for visualization */
+      margin: 10px; /*  Optional: Add padding around the content */
+      /* Other styles for .movie container */
+    
+      /* Set the maximum width and height for the image */
+      width: 227px; /* Ensure the image doesn't exceed the container width */
+      max-height: 100%; /* Set a maximum height for the image */
+    
+      /* Ensure the image fits inside its container */
+       /* Maintain aspect ratio and cover the container */
+  
+    }
+  
+    .movie > h3 {
+      text-align: center;
+    }
+  
+  
+    .movie-list{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .Net{  
+      width: 100%;
+      position: fixed;
+      justify-content: center;
+      z-index:3;
+      
+       padding-left: 8px;
+       height:85px;
+       
+      }
+
+      .Nets{  
+        width: 100%;
+        position: fixed;
+        justify-content: center;
+        z-index:3;
+        
+         padding-left: 8px;
+         height:85px;
+         
+        }
+  
+     .Net>img{
+      width:120px;
+      margin-top: 8px; 
+      position:absolute;      
+      
+    } 
+
+    .Nets>img{
+      width:120px;
+      margin-top: 8px; 
+      position:absolute;      
+      
+    } 
+  
+    .email{
+      padding:10px;
+      margin:10px;
+      background-color: slategray ;
+      color: white;
+      
+  
+      
+      
+      
+      
+  
+    }
+  
+    .pw{
+      
+      padding:10px;
+      margin:10px;
+      background-color:slategrey;
+      text-decoration: white;
+      color:white;
+  
+  
+      
+    }
+    .sign{
+      padding:10px;
+      margin:10px;
+      margin-top:10px;
+      width:92%;
+      
+      background-color: red;
+      border-radius: 10px;
+      border-color: white;
+      color:white;
+      border: white;
+      
+    
+      
+      
+    }
+  
+    .sign:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      border: white;
+      border-radius: 10px;
+    }
+  
+  .signin{
+     
+     background-color: black;
+     padding:20px;
+     border-radius: 2%;
+     opacity: 0.8;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     
+    
+  }
+  
+  .sign-text{
+    color:white;
+    margin:10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+  }
+  
+  input::placeholder {
+    color: wheat; /* Placeholder text color */
+    
+  }
+  
+  .newsign{
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  
+  .newsign:hover{
+    cursor:pointer;
+  }
+  
+  .newsignlink{
+  
+    text-decoration: underline;
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  
+  }
+  
+  .newsignlink:hover{
+    cursor:pointer;
+  }
+  
+  
+  .errmess{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin:12px;
+  
+    
+  }
+  
+  .upperlist{
+    display: flex;
+    
+    justify-content: center;
+    z-index: 3;
+    position:fixed;
+    margin-top: 27px;
+  }
+  
+  .upper{
+    display: flex;
+    justify-content:end;
+    
+  
+  }
+  .upper>button{
+    display: flex;
+    justify-content:end;
+    padding: 0px;
+    
+  
+  }
+  
+  .Signout{
+    
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 20px;
+    border-width: 1px;
+    color:white;
+    border-color: transparent;
+    width:auto;
+    
+    font-size: x-small;
+
+  }
+   .signout_sect > button{
+    
+    height:20px;
+
+    
+  } 
+
+  
+
+  
+  
+
+  .gpt_button_sect > button{
+    
+    height:23px;
+    
+
+    
+
+  } 
+
+
+  .gpt_button_sect{
+    margin-right: 130px;
+  }
+
+  .acc_img{
+    height:30px;
+  }
+
+  
+  .gpt_but {
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: white;
+    font-size: 8px;
+    margin-right: 60px;
+    border-width: 1px;
+    border-color: transparent;
+    font-weight: normal;
+    width: 58px; /* Specify width */
+    text-align: center; /* Center the text horizontally */
+  
+  }
+
+  .gpt_button_sect{
+    
+  }
+  
+  .gpt_but:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .Signout:hover{
+    cursor: pointer;
+    border-width: 1px;
+    
+    border-color: white;
+  }
+  
+  
+  .upperlist > img{
+    
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:blue;
+    
+  }
+  
+  .play-button{
+    padding:10px;
+    margin-left: 25px;
+    background-color: white;
+    width: auto;
+    height:auto;
+    border-width: 0px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: x-small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  .info{
+    
+    padding:15px;
+    margin-left: 25px;
+    width: 100px;
+    border-width: 0px;
+    border-radius:5px;
+  
+  }
+  
+  .play-button:hover{
+    cursor:pointer;
+    color:white;
+    background-color: lightgray;
+
+  }
+  
+  .Title_video{
+         
+      margin-top: 70px;
+      padding-bottom: 10px;
+      font-size:small;
+      font-weight: bold;
+      padding-left: 25px;
+          
+  }
+  
+  .description{
+    width:38%;
+    padding-left: 25px;
+    font-size: xx-small;
+    margin-top:-20px;
+    margin-bottom: 5px;
+  
+  }
+  
+  
+
+
+
+
+  .bgtrailer{
+    width: 99%;
+    aspect-ratio: 2/1;
+    z-index:0;
+    margin-top: 84px;
+    position: relative;
+    
+  }
+  
+  .title{
+    z-index: 2;
+    color:white;
+    position: absolute;
+    padding-top: 50px;
+    width: 100%;
+    height:534px;
+  
+    
+  }
+  
+  .single_movie{
+    aspect-ratio: 1/1.5;
+    width:200px;
+    margin: 5px;
+  
+    border-radius: 5px;
+  
+    
+  }
+  
+  .list{
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Add smooth scrolling (optional) */
+    white-space: nowrap;
+  
+  
+  
+    
+  
+  }
+  
+  .Sc{
+    background-color: black;
+  
+  
+  }
+  
+  .movies{
+    width: 100%; /* Or any width you desire */
+    overflow-x: hidden;
+    color:white;
+  }
+  
+  .list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on WebKit (Chrome, Safari, etc.) */
+  }
+  
+  .browsing {
+    margin-top: auto; /* Adjust margin if needed */
+  }
+  
+  .nl{
+    font-weight: normal;
+    font-size:medium;
+    padding-left:10px;
+    max-width: 100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    
+  }
+  
+  .np{
+    font-weight: normal;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top: 0px;
+    font-size: larger;
+  
+  }
+  
+  
+  .ok{
+    background-color: purple;
+    z-index: 50;
+  }
+  
+  .gptpage{
+    
+  }
+  
+  .gpt_submission{
+    
+    justify-content: left;
+    margin-right: 380px;
+  }
+
+
+    
+
+  
+  .gptform{
+    z-index: 0;
+    
+    width:376px;
+    position: relative;
+
+  }
+
+  .gptform > input{
+    z-index: 0;
+    margin-left: 12%;
+
+  }
+  
+  .searchbar{
+    height:23px;
+    margin-top:19px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border-width: 0;
+  }
+
+  .submit_but{
+    background-color: red;
+    color: white;
+    width: 64px;
+
+    border-radius: 5px;
+    border-width: 0px;
+    height:23px;
+  }
+  
+  .submit_but:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-width: 1px;
+   width: 64px;
+   font-weight: bold;
+   height:23px;
+    border-color: white;
+    cursor: pointer;
+  }  
+  .gptmovies{
+    background-color: white;
+    margin-top:-20px;
+    padding-top: -200px;
+    opacity:0.8 ;
+    z-index: 2;
+  }
+
+
+  .trailtitle {
+    position: relative;
+    top: auto;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 321px) {
+  .head{
+   
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+    
+  }
+  
+  
+  .header-menu {
+      display: flex;
+      justify-content: space-between; /* Items spaced evenly */
+      align-items: center; /* Center items vertically */
+    }
+  
+  .upar > li > button:hover{
+    color: white;
+    
+  }
+    
+     .upar {
+      display: flex;
+      list-style-type: none;
+     
+      width: 100%; /* Ensures the list takes full width */
+    } 
+  
+    .upar > li {
+      
+      flex: 1; /* Each item takes an equal portion of available space */
+      margin: 0 5px; /* Adjust horizontal spacing between items */
+      text-align: center; /* Center text */
+    }
+    
+    .upar > li > button{
+      cursor: pointer;
+      background-color: royalblue;
+      border: none;
+    }
+  
+    .head > h1{
+      background-color: indigo;
+    }
+  
+    .Desc{
+      align-items: center;
+      text-align : center;
+      display:flex;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 100;
+      color: white;
+      margin: left 25%;
+      margin: right 25%;
+       justify-content: center; /* Items spaced evenly */
+      
+      
+  
+  
+    }
+  
+    /* #root{
+      background-color:indigo;
+    } */
+  
+     .movie{
+      max-width: 100%;
+      max-height: 100%;
+      cursor:pointer;
+      margin: 20px;
+       
+      
+      
+      
+      
+      
+    } 
+  
+    .movie:hover {
+      background-color: yellow;
+    }
+    .movie > img{
+    
+      border: 1px solid #ccc; /* Optional: Add a border for visualization */
+      margin: 10px; /*  Optional: Add padding around the content */
+      /* Other styles for .movie container */
+    
+      /* Set the maximum width and height for the image */
+      width: 227px; /* Ensure the image doesn't exceed the container width */
+      max-height: 100%; /* Set a maximum height for the image */
+    
+      /* Ensure the image fits inside its container */
+       /* Maintain aspect ratio and cover the container */
+  
+    }
+  
+    .movie > h3 {
+      text-align: center;
+    }
+  
+  
+    .movie-list{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .Net{  
+      width: 100%;
+      position: fixed;
+      z-index:3;
+       padding-left: 8px;
+       height:84px;
+       
+      }
+
+      .Nets{  
+        width: 100%;
+        position: fixed;
+        z-index:3;
+         padding-left: 8px;
+         background-color: black;
+         height:84px;
+         
+        }
+  
+     .Net>img{
+      width:120px;
+      margin-top: 8px; 
+      
+      position:absolute;      
+      
+    } 
+  
+
+    .Nets>img{
+      width:120px;
+      margin-top: 8px; 
+      
+      position:absolute;      
+      
+    } 
+    .email{
+      padding:10px;
+      margin:10px;
+      background-color: slategray ;
+      color: white;
+      
+  
+      
+      
+      
+      
+  
+    }
+  
+    .pw{
+      
+      padding:10px;
+      margin:10px;
+      background-color:slategrey;
+      text-decoration: white;
+      color:white;
+  
+  
+      
+    }
+    .sign{
+      padding:10px;
+      margin:10px;
+      margin-top:10px;
+      width:92%;
+      
+      background-color: red;
+      border-radius: 10px;
+      border-color: white;
+      color:white;
+      border: white;
+      
+    
+      
+      
+    }
+  
+    .sign:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      border: white;
+      border-radius: 10px;
+    }
+  
+  .signin{
+     
+     background-color: black;
+     padding:20px;
+     border-radius: 2%;
+     opacity: 0.8;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     
+    
+  }
+  
+  .sign-text{
+    color:white;
+    margin:10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+  }
+  
+  input::placeholder {
+    color: wheat; /* Placeholder text color */
+    
+  }
+  
+  .newsign{
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  
+  .newsign:hover{
+    cursor:pointer;
+  }
+  
+  .newsignlink{
+  
+    text-decoration: underline;
+    color:white;
+    margin-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  
+  }
+  
+  .newsignlink:hover{
+    cursor:pointer;
+  }
+  
+  
+  .errmess{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin:12px;
+  
+    
+  }
+  
+  .upperlist{
+    display: flex;
+    
+    justify-content: center;
+    z-index: 3;
+    position:fixed;
+    margin-top: 27px;
+  }
+  
+  .upper{
+    display: flex;
+    justify-content:end;
+    
+  
+  }
+  .upper>button{
+    display: flex;
+    justify-content:end;
+    padding: 0px;
+    
+  
+  }
+  
+  .Signout{
+    
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 7px;
+    border-width: 1px;
+    color:white;
+    border-color: transparent;
+    width:auto;
+    
+    font-size: x-small;
+
+  }
+   .signout_sect > button{
+    
+    height:20px;
+
+    
+  } 
+
+  
+
+  
+  
+
+  .gpt_button_sect > button{
+    
+    height:23px;
+    
+
+    
+
+  }  
+
+
+  .gpt_button_sect{
+    margin-right: 100px;
+    margin-top: -5px;
+  }
+
+  .acc_img{
+    height:30px;
+  }
+
+  
+  .gpt_but {
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin-top: 7px;
+    color: white;
+    font-size: 8px;
+    margin-right: 60px;
+    border-width: 1px;
+    border-color: transparent;
+    font-weight: normal;
+    width: 58px; /* Specify width */
+    text-align: center; /* Center the text horizontally */
+  
+  }
+
+  .gpt_button_sect{
+    
+  }
+  
+  .gpt_but:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .Signout:hover{
+    cursor: pointer;
+    border-width: 1px;
+    
+    border-color: white;
+  }
+  
+  
+  .upperlist > img{
+    
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:blue;
+    
+  }
+  
+  .play-button{
+    padding:10px;
+    margin-left: 25px;
+    background-color: white;
+    width: auto;
+    height:auto;
+    border-width: 0px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: x-small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  .info{
+    
+    padding:15px;
+    margin-left: 25px;
+    width: 100px;
+    border-width: 0px;
+    border-radius:5px;
+  
+  }
+  
+  .play-button:hover{
+    cursor:pointer;
+    color:white;
+    background-color: lightgray;
+
+  }
+  
+  .Title_video{
+         
+      margin-top: 70px;
+      padding-bottom: 10px;
+      font-size:small;
+      font-weight: bold;
+      padding-left: 25px;
+          
+  }
+  
+  .description{
+    width:38%;
+    padding-left: 25px;
+    font-size: xx-small;
+    margin-top:-20px;
+    margin-bottom: 5px;
+  
+  }
+  
+  
+
+
+
+
+  .bgtrailer{
+    width: 99%;
+    aspect-ratio: 2/1;
+    z-index:0;
+    margin-top: 84px;
+    position: relative;
+    
+  }
+  
+  .title{
+    z-index: 2;
+    color:white;
+    position: absolute;
+    padding-top: 40px;
+    width: 100%;
+    height:534px;
+  
+    
+  }
+  
+  .single_movie{
+    aspect-ratio: 1/1.5;
+    width:200px;
+    margin: 5px;
+  
+    border-radius: 5px;
+  
+    
+  }
+  
+  .list {
+    width: auto;
+    flex-wrap: nowrap;
+  }
+
+
+  
+  .Sc{
+    background-color: black;
+    
+  
+  
+  }
+  
+  .movies{
+    width:100%; /* Or any width you desire */
+    overflow-x: hidden;
+    color:white;
+  }
+  
+  .list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on WebKit (Chrome, Safari, etc.) */
+  }
+  
+  .browsing {
+    margin-top: auto; /* Adjust margin if needed */
+  }
+  
+  .nl{
+    font-weight: normal;
+    font-size:medium;
+    padding-left:10px;
+    max-width: 100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    
+  }
+  
+  .np{
+     font-weight: normal;
+    padding-left:10px;
+    font-size: small;
+    color: gray;
+    margin-top: 0;
+    padding-right:10px;
+  
+  }
+  
+  
+  .ok{
+    background-color: purple;
+    z-index: 50;
+  }
+  
+  .gptpage{
+    
+    
+  }    
+
+  .gpt_submission{
+    
+    justify-content: left;
+    margin-right: 330px;
+  }
+
+
+    
+
+  
+  .gptform{
+    z-index: 2;
+    
+    width: 320px;
+    position: relative;
+
+  }
+
+  .gptform > input{
+    z-index: 0;
+    margin-left: 21%;
+    position: relative;
+
+  }
+
+  
+  .searchbar{
+    height:23px;
+    margin-top:19px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border-width: 0;
+    width:auto;
+  }
+
+  .submit_but{
+    background-color: red;
+    color: white;
+    width: 64px;
+
+    border-radius: 5px;
+    border-width: 0px;
+    height:23px;
+  }
+  
+  .submit_but:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-width: 1px;
+   width: 64px;
+   font-weight: bold;
+   height:23px;    border-color: white;
+    cursor: pointer;
+  }
+  
+  .gptmovies{
+    background-color: white;
+    margin-top:0px;
+    opacity:0.8 ;
+    z-index: 2;
+  }
+
+  .single_movie{
+    width:60px;
+  }
+
+  .trailtitle {
+    position: relative;
+    top: auto;
+    margin-bottom: -6px;
+  }
+
+
+
+
+}
